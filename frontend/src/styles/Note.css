@@ -1,0 +1,55 @@
+.note-container {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+  .tit{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7edff;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+  
+  .note-title {
+    color: #333;
+    font-size: 1.1em;
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: transparent   ;
+  }
+  
+  .note-content {
+    width: 100%;
+    min-height: 80px; /* Adjust height as needed */
+    resize: none; /* Prevent resizing if needed */
+    overflow-wrap: break-word; /* Ensures text wraps */
+    word-wrap: break-word; 
+    white-space: pre-wrap; /* Preserves line breaks */
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+}
+  
+  .note-date {
+    color: #999;
+    font-size: 0.8rem;
+  }
+  
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-btn:hover {
+    transform: scale(1.2);
+  }
